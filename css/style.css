@@ -237,10 +237,79 @@ header li:last-child {
     color: #fff;
 }
 
+
 /* RESPOSIVIDADE */
 
 @media (max-width: 850px) {
     .caracteristicas .grid {
         flex-direction: column;
+    }
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.newsletter h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #C3C63B;
+    text-align: center;
+}
+
+.newsletter p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #C3C63B;
+    text-align: center;
+}
+
+.newsletter hr {
+    width: 200px;
+    height: 2px;
+    background-color: #C3C63B;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+
+.newsletter input {
+    padding: 15px;
+    border: 1px solid #C3C63B;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+}
+
+.newsletter button {
+    padding: 15px;
+    background-color: #C3C63B;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* RESPOSIVIDADE */
+
+@media (max-width: 700px) {
+    .newsletter input {
+       flex-basis: 100%;
+       margin-bottom: 15px;
     }
 }
